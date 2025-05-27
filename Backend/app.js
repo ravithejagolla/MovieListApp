@@ -18,11 +18,11 @@ app.use('/user',userRouter)
 
 
 const PORT=process.env.PORT
-const Mongo_Url=process.env.Mongo_Url
+const Mongo_Url=process.env.MONGO_URL
 
 app.listen(PORT,async()=>{
     try{
-        connect(Mongo_Url)
+        await connect(Mongo_Url)
         console.log("Mongodb Connected Successfully")
         console.log(`Server Running on ${PORT}`)
     }catch(e){

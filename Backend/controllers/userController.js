@@ -5,7 +5,7 @@ import argon2 from 'argon2'
 import jwt from 'jsonwebtoken'
 
 
-const Jwt_Password=process.env.Jwt_Password
+const Jwt_Password=process.env.JWT_PASSWORD
 
 export const signUp=async (req,res) => {
 
