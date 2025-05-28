@@ -24,7 +24,7 @@ function App() {
   const fetchData = async () => {
     try {
       dispatch({ type: "FETCH_LOADING" });
-      const res = await fetch('http://localhost:3000/movie');
+      const res = await fetch('https://movielistapp-4.onrender.com/movie');
       const data = await res.json();
       dispatch({ type: "FETCH_SUCCESS", payload: data.movies });
     } catch (err) {
