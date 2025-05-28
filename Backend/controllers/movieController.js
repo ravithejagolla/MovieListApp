@@ -13,7 +13,7 @@ export const createmovie=async (req,res) => {
          })
         await newmovie.save()
          res.status(201).json({
-            messege:"Movie Created Success fully"
+            messege:"Movie Created Successfully"
          })
 
     }catch(e){

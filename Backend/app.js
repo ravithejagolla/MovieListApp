@@ -22,6 +22,7 @@ const Mongo_Url=process.env.MONGO_URL
 
 app.listen(PORT,async()=>{
     try{
+        console.log("Trying to connnect monogo")
         await connect(Mongo_Url)
         console.log("Mongodb Connected Successfully")
         console.log(`Server Running on ${PORT}`)
