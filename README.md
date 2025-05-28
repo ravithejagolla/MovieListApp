@@ -9,7 +9,7 @@ Movie Explorer is a full-stack movie browsing app that allows users to discover,
 
 ## Deployed App
 - 🌐 **Frontend**: [https://moviapp-4.netlify.app/](https://moviapp-4.netlify.app/)  
-- 🌐 **Backend**: [https://movielistapp-3.onrender.com](https://movielistapp-3.onrender.com)
+- 🌐 **Backend**: [https://movielistapp-3.onrender.com](https://movielistapp-4.onrender.com/movie)
 
 ---
 
